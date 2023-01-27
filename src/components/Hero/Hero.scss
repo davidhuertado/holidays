@@ -14,9 +14,9 @@
     font-size: 32px;
     font-family: 'avenirBlack', sans-serif;
     color: mixin.$primary-color;
-    background-color: rgba(252, 255, 251, 0.7);
+    background-color: rgba(252, 255, 251, 0.8);
     margin: 20px;
-    padding: 50px;
+    padding: 48px 46px;
     border-radius: 15px;
   }
 }
@@ -33,7 +33,7 @@
   .hero {
     background-size: cover;
     &__title {
-      font-size: 72px;
+      font-size: 75px;
     }
   }
 }

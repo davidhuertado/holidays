@@ -1,15 +1,16 @@
 .footer {
-  padding: 15px 0;
+  padding: 20px 0 27px;
   overflow: hidden;
   &__copyright {
-    font-size: 12px;
+    font-size: 13px;
+    font-weight: bold;
   }
   &__unsubs {
     text-decoration: underline;
     cursor: pointer;
     font-size: 15px;
     font-weight: bold;
-    margin-top: 7px;
+    margin-top: 15px;
     display: block;
   }
 }

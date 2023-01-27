@@ -5,19 +5,19 @@
   //   height: 534px;
   display: flex;
   flex-direction: column;
-  margin-bottom: 50px;
+  margin-bottom: 39px;
 
   &__img {
     max-width: 100%;
     height: auto;
   }
   &__title {
-    font-size: 28px;
+    font-size: 30px;
     font-family: 'avenirBlack';
-    margin: 15px 0;
+    margin: 16px 0;
   }
   &__text {
-    font-size: 24px;
+    font-size: 25px;
     // padding: 0 40px 15px;
     &--pie {
       padding: 0 20px 15px;
@@ -31,11 +31,11 @@
     background-color: mixin.$white-color;
     border: solid 5px mixin.$primary-color;
     border-radius: 15px;
-    font-size: 24px;
+    font-size: 25px;
     width: 172px;
     height: 55px;
     cursor: pointer;
-    margin-top: 15px;
+    margin-top: 16px;
   }
 }
 

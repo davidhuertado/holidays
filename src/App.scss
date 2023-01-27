@@ -8,7 +8,13 @@
 
 .app__main-text {
   font-family: 'Avenir', sans-serif;
-  font-size: 28px;
+  font-size: 20px;
   font-weight: bold;
-  margin: 28px 15%;
+  margin: 45px 15% 37px;
+}
+
+@media only screen and (min-width: 850px) {
+  .app__main-text {
+    font-size: 30px;
+  }
 }

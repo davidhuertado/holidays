@@ -14,10 +14,11 @@
   &__title {
     font-size: 30px;
     font-family: 'avenirBlack';
-    margin: 16px 0;
+    margin: 16px 0 0;
   }
   &__text {
     font-size: 25px;
+    margin-top: 0;
     // padding: 0 40px 15px;
     &--pie {
       padding: 0 20px 15px;

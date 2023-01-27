@@ -1,0 +1,22 @@
+@import url('https://fonts.cdnfonts.com/css/avenir');
+
+@font-face {
+  font-family: avenirBlack;
+  src: url(./assets/fonts/AvenirBlack.ttf);
+}
+
+:root {
+  font-family: 'Avenir', sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-width: 320px;
+  min-height: 100vh;
+}

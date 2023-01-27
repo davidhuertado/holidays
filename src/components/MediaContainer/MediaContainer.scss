@@ -1,0 +1,23 @@
+@use '../../mixin.scss' as mixin;
+
+.media-container {
+  background-color: mixin.$primary-color;
+  color: mixin.$white-color;
+  padding: 20px 0;
+  &__text {
+    font-size: 20px;
+    margin: 0 0 20px;
+    font-family: 'avenir';
+    font-weight: bold;
+  }
+  &__flex {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__logo {
+    width: 45px;
+    margin: 0 7px;
+    cursor: pointer;
+  }
+}

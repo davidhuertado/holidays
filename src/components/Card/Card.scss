@@ -1,0 +1,51 @@
+@use '../../mixin.scss' as mixin;
+
+.card {
+  width: 354px;
+  //   height: 534px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+
+  &__img {
+    max-width: 100%;
+    height: auto;
+  }
+  &__title {
+    font-size: 28px;
+    font-family: 'avenirBlack';
+    margin: 15px 0;
+  }
+  &__text {
+    font-size: 24px;
+    // padding: 0 40px 15px;
+    &--pie {
+      padding: 0 20px 15px;
+    }
+    &--gifts {
+      padding: 0 50px 15px;
+    }
+  }
+  &__button {
+    color: mixin.$primary-color;
+    background-color: mixin.$white-color;
+    border: solid 5px mixin.$primary-color;
+    border-radius: 15px;
+    font-size: 24px;
+    width: 172px;
+    height: 55px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+}
+
+.card__body {
+  background-color: mixin.$primary-color;
+  color: mixin.$white-color;
+}
+
+@media only screen and (min-width: 850px) {
+  .card {
+    margin: 0 25px 50px;
+  }
+}

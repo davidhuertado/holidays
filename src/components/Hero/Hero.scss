@@ -1,0 +1,39 @@
+@use '../../mixin.scss' as mixin;
+
+.hero {
+  background-image: url(../../assets/images/PM-Holiday-Image1.jpg);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  padding: 184px 0;
+  &__title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__title {
+    font-size: 32px;
+    font-family: 'avenirBlack', sans-serif;
+    color: mixin.$primary-color;
+    background-color: rgba(252, 255, 251, 0.7);
+    margin: 20px;
+    padding: 50px;
+    border-radius: 15px;
+  }
+}
+
+@media only screen and (min-width: 550px) {
+  .hero {
+    &__title {
+      font-size: 52px;
+    }
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  .hero {
+    background-size: cover;
+    &__title {
+      font-size: 72px;
+    }
+  }
+}

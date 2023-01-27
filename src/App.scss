@@ -1,0 +1,14 @@
+@use 'mixin' as mixin;
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+  background-color: mixin.$white-color;
+}
+
+.app__main-text {
+  font-family: 'Avenir', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 28px 15%;
+}
